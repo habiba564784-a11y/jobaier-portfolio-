@@ -83,11 +83,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
    
 .profile-photo {
   display: block;
-  width: 180px;
-  height: 220px;
+  width: 220px;
+  height: 300px;
   object-fit: cover;
-  object-position: center top;
-   border-radius: 18px;
+  object-position: center center;
+   border-radius: 16px;
   margin: 0 auto;
 }
    
