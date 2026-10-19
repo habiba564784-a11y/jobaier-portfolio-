@@ -242,3 +242,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+.profile-card .profile-photo {
+  display: block;
+  width: 220px;
+  height: 300px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin: 24px auto;
+  border-radius: 18px;
+}
