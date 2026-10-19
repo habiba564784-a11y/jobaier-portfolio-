@@ -242,3 +242,22 @@ button, a { -webkit-tap-highlight-color: transparent; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+.profile-photo {
+  display: block;
+  width: 220px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card .profile-photo {
+  align-self: center;
+   }
