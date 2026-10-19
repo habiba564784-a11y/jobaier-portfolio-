@@ -80,6 +80,16 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .profile-card {
   position: relative; z-index: 1; width: min(100%, 360px); min-height: 390px; padding: 22px;
   border: 1px solid rgba(174, 218, 255, .28); border-radius: 28px;
+   
+.profile-photo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+   
   background: linear-gradient(145deg, rgba(29, 61, 94, .94), rgba(8, 23, 43, .96));
   box-shadow: 0 28px 80px rgba(0, 0, 0, .3), inset 0 1px rgba(255,255,255,.08);
   transform: rotate(2deg);
