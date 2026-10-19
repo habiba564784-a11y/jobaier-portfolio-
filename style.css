@@ -252,3 +252,23 @@ button, a { -webkit-tap-highlight-color: transparent; }
   margin: 24px auto;
   border-radius: 18px;
 }
+.hero-visual {
+  display: grid;
+  place-items: center;
+}
+
+.profile-card {
+  box-sizing: border-box;
+  width: min(100%, 360px);
+  margin-inline: auto;
+}
+
+.profile-card .profile-photo {
+  display: block;
+  width: 220px;
+  height: 300px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-inline: auto;
+   }
